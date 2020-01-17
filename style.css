@@ -49,3 +49,32 @@ p {
 #w3cImage {
   float:right;
 }
+
+.red {
+  background-color: red
+}
+
+.green {
+  background-color: green
+}
+
+.blue {
+  background-color: blue
+}
+
+.yellow {
+  background-color: yellow
+}
+
+.cyan {
+  background-color: cyan
+}
+
+.magenta {
+  background-color: magenta
+}
+
+.pink {
+  background-color: pink
+}
+
