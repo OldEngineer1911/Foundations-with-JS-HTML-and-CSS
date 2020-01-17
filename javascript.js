@@ -15,3 +15,11 @@ divElement3.className = red;
 divElement4.className = cyan;
 divElement5.className = yellow;
 }
+
+window.addEventListener('load', function () {
+    document.getElementById('doChange').addEventListener('click', doChange, false);
+}, false);
+
+window.addEventListener('load', function () {
+    document.getElementById('changeColor').addEventListener('click', changeColor, false);
+}, false);
