@@ -131,8 +131,20 @@
   <p class="alertParagraph">ALERT</p>
 </div>
 
-<input onclick="doChange()" type="button" value="Change">
-<input onclick="changeColor()" type="button" value="Change color">
+<div id="changeTextColor" style="color:green">
+  This should change the collor from green to something else.
+</div>
+
+<div id="changeTextValue">
+  This text should NOT be visible after you click on Change button :) .
+</div>
+
+<div>
+  <input onclick="doChange()" type="button" value="Change">
+  <input onclick="changeColor()" type="button" value="Change color">
+  <input onclick="changeTextColor()" type="button" value="Click me and change text color :)">
+  <input onclick="changeButtonText()" type="button" value="Change">
+</div>
 
 <script src="javascript.js"></script>
 </body>
