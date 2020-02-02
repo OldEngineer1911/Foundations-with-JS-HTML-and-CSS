@@ -77,3 +77,13 @@ p {
 .pink {
     background-color: pink;
 }
+
+.lime {
+    background-color: lime;
+}
+
+canvas {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #c3c3c3;
+}

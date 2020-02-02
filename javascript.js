@@ -1,5 +1,5 @@
 function doChange() {
-    alert('Clicked button from js file.');
+    alert('What a question.. In js file of courser :) ');
 }
 
 function changeColor() {
@@ -25,4 +25,26 @@ function changeTextColor() {
 function changeButtonText() {
     var element = document.getElementById("changeTextValue");
     element.innerHTML = "This is new text, function is correctly implemented."
+}
+
+function doLimeDiv() {
+    var element = document.getElementById("divLime");
+    element.style.backgroundColor = "lime";
+}
+
+function doLime() {
+    var element = document.getElementById("d1");
+    element.style.backgroundColor = "lime";
+}
+
+
+function doYellow() {
+    var element = document.getElementById("d1");
+    element.style.backgroundColor = "white";
+
+    var context = element.getContext("2d");
+    context.fillStyle = "yellow";
+    context.fillRectangle(10, 10, 40, 40);
+    context.font = ("30px Arial");
+    context.fillText("Hello world", 10, 80);
 }
