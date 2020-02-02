@@ -1,14 +1,6 @@
 function changeColor() {
-    var element1 = document.getElementById("div1");
-    var element2 = document.getElementById("div2");
-    var element3 = document.getElementById("div3");
-    var element4 = document.getElementById("div4");
-    var element5 = document.getElementById("div5");
-    var element6 = document.getElementById("div6");
-    element1.className = "green";
-    element2.className = "blue";
-    element3.className = "red";
-    element4.className = "cyan";
-    element5.className = "yellow";
-    element6.className = "green";
+    var element1 = document.getElementById("canvas7");
+    var element2 = document.getElementById("canvas8");
+    element1.className = "fuchsiaback";
+    element2.className = "orangeback";
 }

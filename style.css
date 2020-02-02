@@ -82,8 +82,21 @@ p {
     background-color: lime;
 }
 
+.orangeback {
+    background-color: orange;
+}
+
+.fuchsiaback {
+    background-color: fuchsia;
+}
+
 canvas {
     width: 200px;
     height: 100px;
-    border: 1px solid #c3c3c3;
+    margin: 10px;
+    border: 1px solid lighgrey;
+}
+
+input {
+    font-size: 20pt;
 }
