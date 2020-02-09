@@ -1,6 +1,6 @@
 function changeColor() {
-    var element1 = document.getElementById("canvas7");
-    var element2 = document.getElementById("canvas8");
+    const element1 = document.getElementById("canvas7");
+    const element2 = document.getElementById("canvas8");
     element1.className = "fuchsiaback";
     element2.className = "orangeback";
 }
@@ -11,10 +11,10 @@ function changeColorToRed() {
 }
 
 function changeColorToBlue() {
-    var element = document.getElementById("canvas8");
+    const element = document.getElementById("canvas8");
     element.style.backgroundColor = "blue";
 
-    var context = element.getContext("2d");
+    const context = element.getContext("2d");
     context.fillStyle = "yellow";
     context.fillRect(10, 10, 60, 60);
     context.fillRect(80, 10, 60, 60);
@@ -25,16 +25,15 @@ function changeColorToBlue() {
 }
 
 function clearBlueCanvas() {
-    var element = document.getElementById("canvas8");
-    var context = element.getContext("2d");
+    const element = document.getElementById("canvas8");
+    const context = element.getContext("2d");
 
     context.clearRect(0, 0, element.width, element.height);
     element.style.backgroundColor = "blue";
 }
 
 function setColorAccordingToColorPicker() {
-    var rectangle = document.getElementById("canvasColorpicker");
-    var colorinput = document.getElementById("colorPicker");
-    var color = colorinput.value;
-    rectangle.style.backgroundColor = color;
+    const rectangle = document.getElementById("canvasColorpicker");
+    const colorInput = document.getElementById("colorPicker");
+    rectangle.style.backgroundColor = colorInput.value;
 }
