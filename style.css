@@ -90,6 +90,10 @@ p {
     background-color: fuchsia;
 }
 
+.white {
+    background-color: #001A57;
+}
+
 canvas {
     width: 200px;
     height: 100px;

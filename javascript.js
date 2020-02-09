@@ -31,3 +31,10 @@ function clearBlueCanvas() {
     context.clearRect(0, 0, element.width, element.height);
     element.style.backgroundColor = "blue";
 }
+
+function setColorAccordingToColorPicker() {
+    var rectangle = document.getElementById("canvasColorpicker");
+    var colorinput = document.getElementById("colorPicker");
+    var color = colorinput.value;
+    rectangle.style.backgroundColor = color;
+}

@@ -137,6 +137,7 @@
     <h1 id="t1">Canvas practice</h1>
     <canvas id="canvas7" class="orangeback"></canvas>
     <canvas id="canvas8" class="fuchsiaback"></canvas>
+    <canvas id="canvasColorpicker" class="white"></canvas>
 
     <div>
         <input onclick="changeColor()" type="button" value="Change color!">
@@ -152,6 +153,10 @@
 
     <div>
         <input onclick="clearBlueCanvas()" type="button" value="Clear blue rectangle.">
+    </div>
+
+    <div>
+        <input type="color" value="#001A57" onchange="setColorAccordingToColorPicker()" id="colorPicker">
     </div>
 
     <script src="javascript.js"></script>
