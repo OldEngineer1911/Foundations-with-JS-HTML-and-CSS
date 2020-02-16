@@ -33,7 +33,7 @@ h6 {
 }
 
 p {
-    font-family: verdana;
+    font-family: verdana, serif;
     font-size: 20px;
     text-align: center;
 }
@@ -90,7 +90,7 @@ p {
     background-color: fuchsia;
 }
 
-.white {
+.deepBlue {
     background-color: #001A57;
 }
 
@@ -98,7 +98,7 @@ canvas {
     width: 200px;
     height: 100px;
     margin: 10px;
-    border: 1px solid lighgrey;
+    border: 1px solid lightgray;
 }
 
 input {
