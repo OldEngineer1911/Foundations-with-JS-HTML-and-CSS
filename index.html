@@ -31,9 +31,10 @@
         <a href="http://www.dukelearntoprogram.com/" target="blank_">Duke Learn to Program</a>
     </canvas>
 
-    <canvas>
-        <img alt="W3 Schools" height="60" src="https://www.w3schools.com/images/w3schools_green.jpg" id="w3cImage" width="60">
-    </canvas>
+    <div>
+        <img alt="W3 Schools" height="60" src="https://www.w3schools.com/images/w3schools_green.jpg" id="w3cImage"
+             width="60">
+    </div>
 
     <canvas class="yellow" id="canvas4">
         <p>Colours</p>
@@ -137,7 +138,8 @@
     <h1 id="t1">Canvas practice</h1>
     <canvas id="canvas7" class="orangeback"></canvas>
     <canvas id="canvas8" class="fuchsiaback"></canvas>
-    <canvas id="canvasColorpicker" class="white"></canvas>
+    <canvas class="deepBlue" id="canvasColorpicker"></canvas>
+    <canvas class="deepBlue" id="canvasSquare"></canvas>
 
     <div>
         <input onclick="changeColor()" type="button" value="Change color!">
@@ -156,7 +158,13 @@
     </div>
 
     <div>
+        <label for="colorPicker">Color picker</label>
         <input type="color" value="#001A57" onchange="setColorAccordingToColorPicker()" id="colorPicker">
+    </div>
+
+    <div>
+        <label for="slider">Slider</label>
+        <input id="slider" max="100" min="10" oninput="doSquare()" type="range" value="10">
     </div>
 
     <script src="javascript.js"></script>
