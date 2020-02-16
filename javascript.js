@@ -37,3 +37,17 @@ function setColorAccordingToColorPicker() {
     const colorInput = document.getElementById("colorPicker");
     rectangle.style.backgroundColor = colorInput.value;
 }
+
+function doSquare() {
+    const sizeInput = document.getElementById("slider");
+    let size = sizeInput.value;
+
+    const canvas = document.getElementById("canvasSquare");
+    const context = canvas.getContext("2d");
+
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    context.fillStyle = "yellow";
+
+    context.fillRect(10, 10, size, size);
+    context.fillRect(20 + (parseInt(size)), 10, size, size);
+}
